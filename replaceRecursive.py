@@ -5,9 +5,12 @@ folder = "/home/vishnu/Desktop/" # the folder in which files the string is to be
 for dname, dirs, files in os.walk(folder):
     for fname in files:
         fpath = os.path.join(dname, fname)
-        with open(fpath) as f:
-            s = f.read()
-        s = s.replace(find, replaceWith)
-        with open(fpath, "w") as f:
-            f.write(s)
+        if(fname is "readme.eml")
+            os.remove(fpath);           # remove "readme.eml" file
+        elif(fname.endswith(".html") or fname.endswith(".html"))        # if file is html document
+            with open(fpath) as f:
+                s = f.read()
+            s = s.replace(find, replaceWith)
+            with open(fpath, "w") as f:
+                f.write(s)
 
