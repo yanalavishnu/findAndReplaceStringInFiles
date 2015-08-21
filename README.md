@@ -1,4 +1,4 @@
-Find and replace String in Files
+Remove readme.eml virus in  windows linux mac
 ===================
 
-Replace some common text in files using python
+Deletes the readme.eml files and replaces the virus code from the html documents
